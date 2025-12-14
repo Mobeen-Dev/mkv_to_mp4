@@ -1,0 +1,32 @@
+============================================================
+MP4 COMPATIBILITY PROFILE (REFERENCE)
+============================================================
+Container
+  Format name       : mov,mp4,m4a,3gp,3g2,mj2
+  Duration          : 1393.231750 sec
+  Bitrate           : 892664 bps
+
+Video Stream
+  Codec             : h264
+  Profile           : High
+  Level             : 40
+  Resolution        : 1280x720
+  Frame rate        : 29.970 fps
+  Pixel format      : yuv420p
+  Color space       : bt709
+  Color range       : tv
+  Bitrate           : 755556 bps
+
+Audio Stream
+  Codec             : aac
+  Channels          : 2
+  Sample rate       : 32000 Hz
+  Bitrate           : 128543 bps
+  Channel layout    : stereo
+
+============================================================
+Use these values as your TARGET profile when converting other videos.
+Example ffmpeg settings often matching TV-compatible MP4:
+  -c:v libx264 -profile:v high -level 4.1 -pix_fmt yuv420p
+  -c:a aac -ac 2 -ar 48000 -b:a 160k
+============================================================

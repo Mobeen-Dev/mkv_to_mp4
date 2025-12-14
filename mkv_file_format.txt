@@ -1,0 +1,63 @@
+============================================================
+MKV MEDIA PROFILE (SOURCE FILE)
+============================================================
+Container
+  Format name       : matroska,webm
+  Duration          : 1384.768000 sec
+  Bitrate           : 1055714 bps
+
+Video Stream
+  Codec             : av1
+  Codec long name   : Alliance for Open Media AV1
+  Profile           : Main
+  Level             : 8
+  Resolution        : 1916x1076
+  Frame rate        : 29.970 fps
+  Pixel format      : yuv420p10le
+  Bit depth         : None
+  Color space       : None
+  Color primaries   : None
+  Color transfer    : None
+  Color range       : tv
+  Bitrate           : None bps
+
+Audio Stream
+  Codec             : aac
+  Codec long name   : AAC (Advanced Audio Coding)
+  Channels          : 2
+  Sample rate       : 44100 Hz
+  Bitrate           : None bps
+  Channel layout    : stereo
+
+Audio Stream
+  Codec             : aac
+  Codec long name   : AAC (Advanced Audio Coding)
+  Channels          : 2
+  Sample rate       : 48000 Hz
+  Bitrate           : None bps
+  Channel layout    : stereo
+
+Audio Stream
+  Codec             : aac
+  Codec long name   : AAC (Advanced Audio Coding)
+  Channels          : 2
+  Sample rate       : 48000 Hz
+  Bitrate           : None bps
+  Channel layout    : stereo
+
+Subtitle Stream
+  Codec             : ass
+  Language          : eng
+
+Subtitle Stream
+  Codec             : ass
+  Language          : eng
+
+============================================================
+This output shows WHY the MKV may not play correctly on your LCD.
+Common problem indicators:
+  - Video codec: hevc / h265
+  - Pixel format: yuv420p10le (10‑bit)
+  - HDR metadata (bt2020 / smpte2084)
+  - Audio codec: dts / truehd / eac3
+============================================================
